@@ -1,0 +1,176 @@
+<!doctypehtml>
+  <html lang=zh-CN>
+  <meta charset=UTF-8>
+  <meta content=width=device-width,initial-scale=1.0 name=viewport>
+  <title>拷贝漫画 - 漫画爱好者的天堂</title>
+  <script src=https://cdn.tailwindcss.com/3.4.16></script>
+  <script>
+    tailwind.config={darkMode:`class`}
+  </script>
+  <link href=https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css rel=stylesheet>
+  <script>
+    if(localStorage.theme===`dark`||!(`theme` in localStorage)&&window.matchMedia(`(prefers-color-scheme: dark)`).matches){document.documentElement.classList.add(`dark`)}else{document.documentElement.classList.remove(`dark`)}
+  </script>
+  <style>
+    @import "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap";body{font-family:Noto Sans SC,sans-serif;transition:background-color .3s,color .3s}.fade-in{animation:.8s ease-in-out fadeIn}@keyframes fadeIn{0%{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}.card-hover{transition:all .3s}.card-hover:hover{transform:translateY(-5px);box-shadow:0 10px 25px -5px #0000001a,0 10px 10px -5px #0000000a}.btn-hover{transition:all .2s}.btn-hover:hover{transform:scale(1.05)}.scroll-reveal{opacity:0;transition:opacity .6s,transform .6s;transform:translateY(20px)}.scroll-reveal.active{opacity:1;transform:translateY(0)}
+  </style>
+  <body class="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100">
+    <nav class="sticky top-0 z-50 bg-white dark:bg-gray-800 shadow-md">
+      <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+        <div class="flex items-center space-x-2"><i class="fas fa-book-open text-blue-600 dark:text-blue-400 text-2xl"></i><span class="text-xl font-bold">拷贝漫画</span></div>
+        <div class="flex items-center space-x-4"><button class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 btn-hover" id=theme-toggle><i class="fas fa-moon dark:hidden"></i> <i class="fas fa-sun hidden dark:block"></i></button><a
+            class="hidden md:block hover:text-blue-600 dark:hover:text-blue-400 transition-colors" href=#features>功能特点</a><a class="hidden md:block hover:text-blue-600 dark:hover:text-blue-400 transition-colors" href=#usage>使用指南</a><a
+            class="hidden md:block hover:text-blue-600 dark:hover:text-blue-400 transition-colors" href=#scenarios>使用场景</a><a class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md btn-hover" href=https://www.ggonav.com/sites/5954.html>联系我们</a></div>
+      </div>
+    </nav>
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-700 dark:from-blue-800 dark:to-indigo-900 text-white py-16 md:py-24">
+      <div class="container mx-auto px-4 text-center fade-in">
+        <h1 class="text-3xl md:text-5xl font-bold mb-4">拷贝漫画</h1>
+        <p class="text-lg md:text-xl max-w-3xl mx-auto opacity-90">全球漫画爱好者的首选平台，提供海量正版漫画资源和卓越的阅读体验
+        <div class="mt-8 flex flex-wrap justify-center gap-4"><a class="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-medium btn-hover" href=https://www.ggonav.com/sites/5954.html
+ target=_blank> <i class="fas fa-globe mr-2"></i>访问官网 </a></div>
+      </div>
+    </header>
+    <main class="container mx-auto px-4 py-12">
+      <section class="mb-16 scroll-reveal">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="text-2xl md:text-3xl font-bold mb-6 text-center">关于拷贝漫画</h2>
+          <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-6">拷贝漫画是一款专注于提供丰富漫画资源的在线阅读平台，致力于为全球漫画爱好者带来便捷、高质量的阅读体验。该网站汇集了国内外众多优质漫画作品，涵盖多种题材和风格，包括热血冒险、都市情感、青春校园、奇幻恐怖等，满足不同用户的阅读需求。
+          <p class="text-gray-700 dark:text-gray-300 leading-relaxed">无论是热门连载还是经典作品，用户都可以轻松找到并享受流畅的阅读体验。此外，拷贝漫画还支持高清画质、智能推荐以及个性化设置等功能，让读者能够根据自己的喜好调整阅读模式，提升整体阅读舒适度。
+        </div>
+      </section>
+      <section class="mb-16 scroll-reveal" id=features>
+        <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center">功能特点</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md card-hover">
+            <div class="text-blue-600 dark:text-blue-400 text-3xl mb-4"><i class="fas fa-database"></i></div>
+            <h3 class="text-xl font-semibold mb-3">海量资源</h3>
+            <p class="text-gray-600 dark:text-gray-400">涵盖国内外热门漫画作品，包括国漫、日漫、韩漫等多种类型。
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md card-hover">
+            <div class="text-blue-600 dark:text-blue-400 text-3xl mb-4"><i class="fas fa-image"></i></div>
+            <h3 class="text-xl font-semibold mb-3">高清画质</h3>
+            <p class="text-gray-600 dark:text-gray-400">提供清晰流畅的阅读体验，让用户享受视觉盛宴。
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md card-hover">
+            <div class="text-blue-600 dark:text-blue-400 text-3xl mb-4"><i class="fas fa-brain"></i></div>
+            <h3 class="text-xl font-semibold mb-3">智能推荐</h3>
+            <p class="text-gray-600 dark:text-gray-400">根据用户的阅读习惯推荐个性化内容。
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md card-hover">
+            <div class="text-blue-600 dark:text-blue-400 text-3xl mb-4"><i class="fas fa-sliders-h"></i></div>
+            <h3 class="text-xl font-semibold mb-3">个性化设置</h3>
+            <p class="text-gray-600 dark:text-gray-400">支持调整亮度、字体大小、页面布局等，提升阅读舒适度。
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md card-hover">
+            <div class="text-blue-600 dark:text-blue-400 text-3xl mb-4"><i class="fas fa-download"></i></div>
+            <h3 class="text-xl font-semibold mb-3">离线缓存</h3>
+            <p class="text-gray-600 dark:text-gray-400">支持将漫画下载到本地设备，方便随时离线阅读。
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md card-hover">
+            <div class="text-blue-600 dark:text-blue-400 text-3xl mb-4"><i class="fas fa-comments"></i></div>
+            <h3 class="text-xl font-semibold mb-3">互动社区</h3>
+            <p class="text-gray-600 dark:text-gray-400">用户可以参与评论、分享和讨论，与他人交流心得。
+          </div>
+        </div>
+      </section>
+      <section class="mb-16 scroll-reveal" id=usage>
+        <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center">使用步骤</h2>
+        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden">
+          <div class="grid grid-cols-1 md:grid-cols-2">
+            <div class=p-6>
+              <ol class=space-y-6>
+                <li class=flex>
+                  <div class="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 dark:bg-blue-500 flex items-center justify-center text-white font-bold">1</div>
+                  <div class=ml-4>
+                    <h3 class="text-lg font-medium">打开浏览器并输入网址</h3>
+                    <p class="mt-1 text-gray-600 dark:text-gray-400">在浏览器地址栏中输入拷贝漫画官网入口网址。
+                  </div>
+                <li class=flex>
+                  <div class="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 dark:bg-blue-500 flex items-center justify-center text-white font-bold">2</div>
+                  <div class=ml-4>
+                    <h3 class="text-lg font-medium">搜索感兴趣的内容</h3>
+                    <p class="mt-1 text-gray-600 dark:text-gray-400">在首页顶部的搜索框中输入关键词，快速查找感兴趣的漫画。
+                  </div>
+                <li class=flex>
+                  <div class="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 dark:bg-blue-500 flex items-center justify-center text-white font-bold">3</div>
+                  <div class=ml-4>
+                    <h3 class="text-lg font-medium">进入漫画详情页</h3>
+                    <p class="mt-1 text-gray-600 dark:text-gray-400">点击进入漫画详情页后，选择"免费阅读"或"加入书架"。
+                  </div>
+              </ol>
+            </div>
+            <div class=p-6>
+              <ol class=space-y-6>
+                <li class=flex>
+                  <div class="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 dark:bg-blue-500 flex items-center justify-center text-white font-bold">4</div>
+                  <div class=ml-4>
+                    <h3 class="text-lg font-medium">离线阅读</h3>
+                    <p class="mt-1 text-gray-600 dark:text-gray-400">如果需要离线阅读，可点击"下载"按钮将漫画保存到本地设备。
+                  </div>
+                <li class=flex>
+                  <div class="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 dark:bg-blue-500 flex items-center justify-center text-white font-bold">5</div>
+                  <div class=ml-4>
+                    <h3 class="text-lg font-medium">注册登录</h3>
+                    <p class="mt-1 text-gray-600 dark:text-gray-400">用户还可以通过注册账号登录后享受更多功能，如收藏、评论和分享。
+                  </div>
+              </ol>
+              <div class="mt-8 bg-blue-50 dark:bg-blue-900/30 p-4 rounded-lg">
+                <h4 class="font-medium text-blue-700 dark:text-blue-300 mb-2">提示</h4>
+                <p class="text-gray-600 dark:text-gray-400">拷贝漫画支持多设备同步阅读进度，您可以在手机、平板或电脑之间无缝切换，确保阅读体验的一致性。
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mb-16 scroll-reveal" id=scenarios>
+        <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center">适用场景</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md card-hover">
+            <div class="flex items-center mb-4">
+              <div class="rounded-full bg-blue-100 dark:bg-blue-900 p-3 mr-4"><i class="fas fa-bus text-blue-600 dark:text-blue-400"></i></div>
+              <h3 class="text-xl font-semibold">通勤途中</h3>
+            </div>
+            <p class="text-gray-600 dark:text-gray-400">在公交车、地铁等交通工具上，利用碎片时间阅读喜欢的漫画，打发旅途时光。
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md card-hover">
+            <div class="flex items-center mb-4">
+              <div class="rounded-full bg-blue-100 dark:bg-blue-900 p-3 mr-4"><i class="fas fa-couch text-blue-600 dark:text-blue-400"></i></div>
+              <h3 class="text-xl font-semibold">休闲时光</h3>
+            </div>
+            <p class="text-gray-600 dark:text-gray-400">在周末或假期，放松身心，沉浸在精彩的漫画世界中，享受阅读的乐趣。
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md card-hover">
+            <div class="flex items-center mb-4">
+              <div class="rounded-full bg-blue-100 dark:bg-blue-900 p-3 mr-4"><i class="fas fa-laptop text-blue-600 dark:text-blue-400"></i></div>
+              <h3 class="text-xl font-semibold">学习间隙</h3>
+            </div>
+            <p class="text-gray-600 dark:text-gray-400">在学习或工作之余，短暂休息时浏览漫画，缓解疲劳，保持学习状态。
+          </div>
+        </div>
+      </section>
+      <section class="mb-16 scroll-reveal">
+        <div class="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/30 dark:to-indigo-900/30 rounded-xl p-8 text-center">
+          <h2 class="text-2xl md:text-3xl font-bold mb-4">为什么选择拷贝漫画？</h2>
+          <p class="text-gray-700 dark:text-gray-300 max-w-3xl mx-auto mb-6">拷贝漫画凭借其丰富的资源库、高清画质和便捷的功能设计，成为广大漫画爱好者的首选平台。无论是资深粉丝还是新手入门者，都能在这里找到属于自己的精彩故事。
+          <div class="flex flex-wrap justify-center gap-4"><a class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium btn-hover" href=https://www.ggonav.com/sites/5954.html> <i class="fas fa-download mr-2"></i>立即访问 </a></div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-gray-100 dark:bg-gray-800 py-12">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <div class="mb-6 md:mb-0">
+            <div class="flex items-center space-x-2"><i class="fas fa-book-open text-blue-600 dark:text-blue-400 text-2xl"></i><span class="text-xl font-bold">拷贝漫画</span></div>
+            <p class="text-gray-600 dark:text-gray-400 mt-2">全球漫画爱好者的首选平台
+          </div>
+          <div class="flex flex-col items-center md:items-end">
+            <p class="text-gray-600 dark:text-gray-400 mb-2">GGO导航
+            <p class="text-gray-500 dark:text-gray-500 text-sm">© 2025 拷贝漫画. 保留所有权利.
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const themeToggle=document.getElementById(`theme-toggle`);themeToggle.addEventListener(`click`,()=>{let a=`dark`;if(document.documentElement.classList.contains(a)){document.documentElement.classList.remove(a);localStorage.theme=`light`}else{document.documentElement.classList.add(a);localStorage.theme=a}});const scrollElements=document.querySelectorAll(`.scroll-reveal`);const elementInView=(a,b=1)=>{const c=a.getBoundingClientRect().top;return c<=(window.innerHeight||document.documentElement.clientHeight)/b};const displayScrollElement=a=>{a.classList.add(`active`)};const handleScrollAnimation=()=>{scrollElements.forEach(a=>{if(elementInView(a,1.25)){displayScrollElement(a)}})};handleScrollAnimation();window.addEventListener(`scroll`,()=>{handleScrollAnimation()})
+    </script>
