@@ -1,7 +1,7 @@
 <h2>拷贝漫画官网，免费在线漫画官方网站入口及使用指南|下载</h2>
 <p>拷贝漫画官网是一个专为漫画爱好者打造的综合平台，旨在提供海量正版漫画资源和卓越的用户体验。网站界面设计简洁明了，操作便捷，用户可以通过首页的分类标签或搜索框快速定位到感兴趣的漫画内容。此外，拷贝漫画还定期更新内容，确保用户能够第一时间阅读到最新章节。对于新手用户，拷贝漫画提供了详细的注册和登录指南，用户只需填写基本信息即可完成账号注册。同时，网站还设有智能推荐系统，根据用户的阅读历史和偏好推送相关作品，帮助用户发现更多感兴趣的内容。</p>
-<p><strong>一键访问：</strong><a href="https://www.ggonav.com/sites/5954.html" target="_blank"><strong>拷贝漫画最新网址</strong></a></p>
-<p><strong>一键访问：</strong><a href="https://pan.quark.cn/s/0db22432c259" target="_blank"><strong>⏬经典电影/无损音乐</strong></a></p>
+<p><strong>一键访问：</strong><a href="https://copymanga.wwwnav.com/" target="_blank"><strong>拷贝漫画最新网址</strong></a></p>
+<p><strong>一键访问：</strong><a href="https://wangpanziyuan.pages.dev/" target="_blank"><strong>电子书/电影/音乐/漫画/游戏下载</strong></a></p>
 <p><strong>一键访问：</strong><a href="http://ip.harmonylink.net/share/e82025" target="_blank"><strong>海外代理网络·可看蓝光4K影视</strong></a></p>
 <p><strong>功能特点：</strong></p>
 <ol>
